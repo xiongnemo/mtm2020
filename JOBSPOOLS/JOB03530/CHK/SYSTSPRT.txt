@@ -1,0 +1,77 @@
+1READY
+ %CHK Z08141  PDS1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" PDS1","status":"CORRECT"}
+ READY
+ %CHK Z08141  PDS2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" PDS2","status":"CORRECT"}
+ READY
+ %CHK Z08141  USS1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" USS1","status":"CORRECT"}
+ READY
+ %CHK Z08141  USS2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" USS2","status":"INCORRECT"}
+ READY
+ %CHK Z08141  JCL1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" JCL1","status":"CORRECT"}
+ READY
+ %CHK Z08141  JCL2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" JCL2","status":"CORRECT"}
+ READY
+ %CHK Z08141  VSC2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" VSC2","status":"CORRECT"}
+ READY
+ %CHK Z08141  ZOAU1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" ZOAU1","status":"INCORRECT"}
+ READY
+ %CHK Z08141  ZOAU2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" ZOAU2","status":"INCORRECT"}
+ READY
+ %CHK Z08141  REXX1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" REXX1","status":"INCORRECT"}
+ READY
+ %CHK Z08141  REXX2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" REXX2","status":"INCORRECT"}
+ READY
+1%CHK Z08141  CBL1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" CBL1","status":"INCORRECT"}
+ READY
+ %CHK Z08141  ZCLI1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" ZCLI1","status":"INCORRECT"}
+ READY
+ %CHK Z08141  ANSB1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" ANSB1","status":"INCORRECT"}
+ READY
+ %CHK Z08141  ANSB2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" ANSB2","status":"INCORRECT"}
+ READY
+ END

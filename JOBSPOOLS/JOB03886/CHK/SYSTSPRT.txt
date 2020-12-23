@@ -1,0 +1,12 @@
+1READY
+ %CHK Z08141  ZOAU1
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" ZOAU1","status":"CORRECT"}
+ READY
+ %CHK Z08141  ZOAU2
+ HTTP status 00000200
+ HTTP reason OK
+ Response {"userid":"Z08141","challenge_id":" ZOAU2","status":"CORRECT"}
+ READY
+ END

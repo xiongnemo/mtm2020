@@ -1,0 +1,7 @@
+        1 //CHK      JOB 1,CLASS=C                                                JOB07931
+        2 //CHK      EXEC PGM=IKJEFT01,REGION=6M
+        3 //SYSEXEC  DD DSN=VENDOR.CLIST,DISP=SHR
+        4 //SYSPRINT DD SYSOUT=*
+        5 //SYSTSPRT DD SYSOUT=*
+        6 //SYSTERM  DD SYSOUT=*
+        7 //SYSTSIN  DD *,SYMBOLS=CNVTSYS

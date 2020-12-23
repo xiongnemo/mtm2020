@@ -1,0 +1,11 @@
+        1 //PDS1CCAT JOB 1,NOTIFY=&SYSUID                                         JOB03380
+          IEFC653I SUBSTITUTION JCL - 1,NOTIFY=Z08141
+        2 //COPY     EXEC PGM=IEBGENER                                            00020000
+        3 //SYSPRINT DD SYSOUT=*                                                  00030000
+        4 //SYSUT1   DD DSN=&SYSUID..WORK(PDSPART1),DISP=SHR                      00040000
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.WORK(PDSPART1),DISP=SHR
+        5 //         DD DSN=&SYSUID..WORK(PDSPART2),DISP=SHR                      00050000
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.WORK(PDSPART2),DISP=SHR
+        6 //SYSUT2   DD DSN=&SYSUID..WORK(PDS1OUT),DISP=SHR                       00060000
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.WORK(PDS1OUT),DISP=SHR
+        7 //SYSIN    DD DUMMY                                                     00080000

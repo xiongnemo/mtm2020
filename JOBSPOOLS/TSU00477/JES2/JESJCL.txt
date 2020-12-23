@@ -1,0 +1,40 @@
+        1 //Z08141   JOB 'IZUACCT',                                               TSU00477
+          //             REGION=65536K
+        2 //IZUFPROC EXEC IZUFPROC
+        3 XXIZUFPROC PROC ROOT='/usr/lpp/zosmf'  /* zOSMF INSTALL ROOT     */
+        4 XX         EXPORT SYMLIST=(XX)
+        5 XX         SET QT=''''
+        6 XX         SET XX=&QT.&ROOT.&QT.
+          IEFC653I SUBSTITUTION JCL - XX='/usr/lpp/zosmf'
+        7 XXXX       EXPORT EXPSET=/usr/lpp/zosmf              GENERATED STATEMENT
+        8 XXIZUFPROC EXEC PGM=IKJEFT01,DYNAMNBR=200
+          XX****************************************************************/
+          XX* TSO LOGON PROC FOR Z/OS DATA SET AND FILE REST INTERFACE     */
+          XX*                                                              */
+          XX* PROPRIETARY STATEMENT:                                       */
+          XX*                                                              */
+          XX*     LICENSED MATERIALS - PROPERTY OF IBM                     */
+          XX*     5650-ZOS                                                 */
+          XX*     COPYRIGHT IBM CORP. 2014, 2016                           */
+          XX*     STATUS = HSMA220                                         */
+          XX****************************************************************/
+        9 XXCEEOPTS DD *,SYMBOLS=JCLONLY
+       10 XXSYSEXEC  DD DISP=SHR,DSN=ISP.SISPEXEC
+       11 XX         DD DISP=SHR,DSN=SYS1.SBPXEXEC
+       12 XX         DD DISP=SHR,DSN=ISF.SISFEXEC
+       13 XXSYSPROC  DD DISP=SHR,DSN=ISP.SISPCLIB
+       14 XX         DD DISP=SHR,DSN=SYS1.SBPXEXEC
+       15 XXISPLLIB  DD DISP=SHR,DSN=SYS1.SIEALNKE
+       16 XXISPPLIB  DD DISP=SHR,DSN=ISP.SISPPENU
+       17 XXISPTLIB  DD DISP=SHR,DSN=ISP.SISPTENU
+       18 XXISPSLIB  DD DISP=SHR,DSN=ISP.SISPSENU
+       19 XXISPMLIB  DD DISP=SHR,DSN=ISP.SISPMENU
+       20 XXISPPROF DD DISP=NEW,UNIT=SYSDA,SPACE=(TRK,(15,15,5)),
+          XX        DCB=(RECFM=FB,LRECL=80,BLKSIZE=3120)
+       21 XXIZUSRVMP DD PATH='&ROOT./defaults/izurf.tsoservlet.mapping.json'
+          IEFC653I SUBSTITUTION JCL - PATH='/usr/lpp/zosmf/defaults/izurf.tsoservlet.mapping.json'
+       22 XXSYSOUT   DD SYSOUT=H
+       23 XXCEEDUMP  DD DUMMY
+       24 XXSYSUDUMP DD DUMMY
+       25 XX
+       26 XXXX       EXPORT EXPSET=                            GENERATED STATEMENT

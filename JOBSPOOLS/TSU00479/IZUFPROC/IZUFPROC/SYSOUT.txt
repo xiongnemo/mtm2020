@@ -1,0 +1,4 @@
+ [06:42:14.430187] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(ASCMSG)
+ [06:42:14.430825] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DE7
+ [06:42:14.430859] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 7274516 -r 0x1c2f3028 )
+ [06:42:14.699674] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0

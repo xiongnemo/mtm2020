@@ -1,0 +1,18 @@
+1                   J E S 2  J O B  L O G  --  S Y S T E M  S 0 W 1  --  N O D E  S V S C J E S 2
+0
+ 06.14.24 JOB03870 ---- TUESDAY,   22 DEC 2020 ----
+ 06.14.24 JOB03870  IRR010I  USERID Z08141   IS ASSIGNED TO THIS JOB.
+ 06.14.25 JOB03870  ICH70001I Z08141   LAST ACCESS AT 05:54:17 ON TUESDAY, DECEMBER 22, 2020
+ 06.14.25 JOB03870  $HASP373 CHK      STARTED - INIT 17   - CLASS C        - SYS S0W1
+ 06.14.28 JOB03870  -                                      -----TIMINGS (MINS.)------                          -----PAGING COUNTS----
+ 06.14.28 JOB03870  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 06.14.28 JOB03870  -CHK                  00    223      9       .00       .00     .0            18  SYSTEM       0     0     0     0
+ 06.14.28 JOB03870  -CHK      ENDED.  NAME-                     TOTAL TCB CPU TIME=      .00 TOTAL ELAPSED TIME=    .0
+ 06.14.28 JOB03870  $HASP395 CHK      ENDED - RC=0000
+0------ JES2 JOB STATISTICS ------
+-  22 DEC 2020 JOB EXECUTION DATE
+-            9 CARDS READ
+-           87 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-            5 SYSOUT SPOOL KBYTES
+-         0.06 MINUTES EXECUTION TIME

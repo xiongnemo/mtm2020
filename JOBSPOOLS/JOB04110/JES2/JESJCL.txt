@@ -1,0 +1,5 @@
+        1 //REPRO2   JOB  REPROJCL                                                JOB04110
+        2 //STEP1    EXEC PGM=IDCAMS
+        3 //INPUT    DD   DSNAME=MTM2020.PUBLIC.RECORDS,DISP=SHR,DCB=(BUFNO=6)
+        4 //SYSPRINT DD   SYSOUT=A
+        5 //SYSIN    DD   *

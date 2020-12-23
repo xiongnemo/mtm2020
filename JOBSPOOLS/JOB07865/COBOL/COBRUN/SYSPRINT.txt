@@ -1,0 +1,236 @@
+1PP 5655-EC6 IBM Enterprise COBOL for z/OS  6.3.0 P201119                 Date 12/22/2020  Time 15:12:00   Page     1
+0Options in effect:
+  NOADATA
+    ADV
+    AFP(NOVOLATILE)
+    QUOTE
+    ARCH(8)
+    ARITH(COMPAT)
+  NOAWO
+  NOBLOCK0
+    BUFSIZE(4096)
+  NOCICS
+    CODEPAGE(1140)
+  NOCOMPILE(S)
+  NOCOPYLOC
+  NOCOPYRIGHT
+  NOCURRENCY
+    DATA(31)
+    DBCS
+  NODECK
+  NODEFINE
+  NODIAGTRUNC
+    DISPSIGN(COMPAT)
+  NODLL
+  NODUMP
+  NODYNAM
+  NOEXIT
+  NOEXPORTALL
+  NOFASTSRT
+    FLAG(I,I)
+  NOFLAGSTD
+    HGPR(PRESERVE)
+  NOINITCHECK
+  NOINITIAL
+    INLINE
+    INTDATE(ANSI)
+    LANGUAGE(EN)
+    LINECOUNT(60)
+  NOLIST
+    LP(32)
+  NOMAP
+    MAXPCF(100000)
+  NOMDECK
+  NONAME
+    NSYMBOL(NATIONAL)
+  NONUMBER
+  NONUMCHECK
+    NUMPROC(NOPFD)
+    OBJECT
+  NOOFFSET
+    OPTIMIZE(0)
+    OUTDD(SYSOUT)
+  NOPARMCHECK
+    PGMNAME(COMPAT)
+    QUALIFY(COMPAT)
+    RENT
+    RMODE(AUTO)
+  NORULES
+  NOSERVICE
+1PP 5655-EC6 IBM Enterprise COBOL for z/OS  6.3.0 P201119                 Date 12/22/2020  Time 15:12:00   Page     2
+0   SEQUENCE
+    SOURCE
+    SPACE(1)
+  NOSQL
+    SQLCCSID
+  NOSQLIMS
+  NOSSRANGE
+  NOSTGOPT
+    SUPPRESS
+  NOTERM
+  NOTEST(NODWARF,NOSOURCE,NOSEPARATE)
+  NOTHREAD
+    TRUNC(STD)
+  NOVBREF
+    VLR(STANDARD)
+    VSAMOPENFS(COMPAT)
+  NOWORD
+    XMLPARSE(XMLSS)
+    XREF(FULL)
+    ZONEDATA(PFD)
+    ZWB
+1PP 5655-EC6 IBM Enterprise COBOL for z/OS  6.3.0 P201119       TOPACCTS  Date 12/22/2020  Time 15:12:00   Page     3
+   LineID  PL SL  ----+-*A-1-B--+----2----+----3----+----4----+----5----+----6----+----7-|--+----8 Map and Cross Reference
+0  000001                IDENTIFICATION DIVISION.
+   000002                PROGRAM-ID.    TOPACCTS.
+   000003                AUTHOR.        NEMO.
+   000004               *
+   000005                ENVIRONMENT DIVISION.
+   000006               *
+   000007                INPUT-OUTPUT SECTION.
+   000008                FILE-CONTROL.
+   000009                    SELECT ACCTS-REC-IN ASSIGN TO ACCTSIN.                                28
+   000010                    SELECT ACCTS-REC-OUT ASSIGN TO TOPACCT.                               15
+   000011                    SELECT ACCTS-REC-COUNT-OUT ASSIGN TO TOPACCT.                         23
+   000012
+   000013                DATA DIVISION.
+   000014                FILE SECTION.
+   000015                FD  ACCTS-REC-OUT RECORDING MODE F.
+   000016                01  PRINT-ACCTS-REC-OUT.
+   000017                    05  FIRST-NAME-OUT      PIC X(15).
+   000018                    05  LAST-NAME-OUT       PIC X(15).
+   000019                    05  FILLER              PIC X(05) VALUE SPACES.                       IMP
+   000020                    05  ACCT-BALANCE-OUT    PIC 9,999,999.99.
+   000021                    05  FILLER              PIC X(33) VALUE SPACES.                       IMP
+   000022
+   000023                FD  ACCTS-REC-COUNT-OUT RECORDING MODE F.
+   000024                01  PRINT-ACCTS-REC-COUNT.
+   000025                    05  ACCTS-REC-COUNT         PIC 9(1).
+   000026                    05  RESERVED                PIC X(79).
+   000027
+   000028                FD  ACCTS-REC-IN RECORDING MODE F.
+   000029                01  ACCTS-REC.
+   000030                    05  FIRST-NAME          PIC X(11).
+   000031                    05  LAST-NAME           PIC X(22).
+   000032                    05  START-TIME          PIC X(11).
+   000033                    05  END-TIME            PIC X(17).
+   000034                    05  ACCT-BALANCE        PIC 9,999,999.99.
+   000035                    05  RESERVED            PIC X(7).
+   000036
+   000037
+   000038                WORKING-STORAGE SECTION.
+   000039
+   000040                01  LAST-REC         PIC X(1).
+   000041
+   000042                01  ACCT-COUNT       PIC 9(1).
+   000043
+   000044               ****************************************************************
+   000045               *                  PROCEDURE DIVISION                          *
+   000046               ****************************************************************
+   000047                PROCEDURE DIVISION.
+   000048
+   000049                OPEN-FILES.
+   000050                    OPEN INPUT ACCTS-REC-IN.                                              28
+   000051                    OPEN OUTPUT ACCTS-REC-OUT.                                            15
+   000052
+   000053                READ-NEXT-RECORD.
+   000054                    PERFORM READ-RECORD                                                   88
+   000055                       PERFORM UNTIL LAST-REC = 'Y'                                       40
+   000056      1                PERFORM WRITE-RECORD                                               70
+   000057      1                PERFORM READ-RECORD                                                88
+1PP 5655-EC6 IBM Enterprise COBOL for z/OS  6.3.0 P201119       TOPACCTS  Date 12/22/2020  Time 15:12:00   Page     4
+   LineID  PL SL  ----+-*A-1-B--+----2----+----3----+----4----+----5----+----6----+----7-|--+----8 Map and Cross Reference
+0  000058                       END-PERFORM.
+   000059
+   000060                CLOSE-STOP.
+   000061                    DISPLAY ACCT-COUNT.                                                   42
+   000062                    OPEN OUTPUT ACCTS-REC-COUNT-OUT.                                      23
+   000063                    MOVE ACCT-COUNT TO ACCTS-REC-COUNT.                                   42 25
+   000064                    WRITE PRINT-ACCTS-REC-COUNT.                                          24
+   000065                    CLOSE ACCTS-REC-COUNT-OUT.                                            23
+   000066                    CLOSE ACCTS-REC-IN.                                                   28
+   000067                    CLOSE ACCTS-REC-OUT.                                                  15
+   000068                    STOP RUN.
+   000069
+   000070                WRITE-RECORD.
+   000071                    MOVE ALL SPACES TO PRINT-ACCTS-REC-OUT                                IMP 16
+   000072                    MOVE FIRST-NAME TO FIRST-NAME-OUT.                                    30 17
+   000073                    MOVE LAST-NAME TO LAST-NAME-OUT.                                      31 18
+   000074                    MOVE ACCT-BALANCE TO ACCT-BALANCE-OUT.                                34 20
+   000075                    IF ACCT-BALANCE(1:1) IS NUMERIC THEN                                  34
+   000076      1                 IF ACCT-BALANCE(1:1) > 8 THEN                                     34
+   000077      2                     ADD 1 TO ACCT-COUNT                                           42
+   000078      2                     WRITE PRINT-ACCTS-REC-OUT                                     16
+   000079      1                 END-IF
+   000080      1                 IF ACCT-BALANCE(1:1) = 8 THEN                                     34
+   000081      2                     IF ACCT-BALANCE(3:3) >= 5 THEN                                34
+   000082      3                         ADD 1 TO ACCT-COUNT                                       42
+   000083      3                         WRITE PRINT-ACCTS-REC-OUT                                 16
+   000084      2                     END-IF
+   000085      1                 END-IF
+   000086                    END-IF.
+   000087
+   000088                READ-RECORD.
+   000089                    READ ACCTS-REC-IN                                                     28
+   000090      1             AT END MOVE 'Y' TO LAST-REC                                           40
+   000091                    END-READ.
+   000092
+   000093
+   000094
+   000095
+   000096
+   000097
+1PP 5655-EC6 IBM Enterprise COBOL for z/OS  6.3.0 P201119       TOPACCTS  Date 12/22/2020  Time 15:12:00   Page     5
+0An "M" preceding a data-name reference indicates that the data-name is modified by this reference.
+
+  Defined   Cross-reference of data names   References
+
+       34   ACCT-BALANCE . . . . . . . . .  74 75 76 80 81
+       20   ACCT-BALANCE-OUT . . . . . . .  M74
+       42   ACCT-COUNT . . . . . . . . . .  61 63 M77 M82
+       29   ACCTS-REC
+       25   ACCTS-REC-COUNT. . . . . . . .  M63
+       23   ACCTS-REC-COUNT-OUT. . . . . .  11 62 65
+       28   ACCTS-REC-IN . . . . . . . . .  9 50 66 89
+       15   ACCTS-REC-OUT. . . . . . . . .  10 51 67
+       33   END-TIME
+       30   FIRST-NAME . . . . . . . . . .  72
+       17   FIRST-NAME-OUT . . . . . . . .  M72
+       31   LAST-NAME. . . . . . . . . . .  73
+       18   LAST-NAME-OUT. . . . . . . . .  M73
+       40   LAST-REC . . . . . . . . . . .  55 M90
+       24   PRINT-ACCTS-REC-COUNT. . . . .  64
+       16   PRINT-ACCTS-REC-OUT. . . . . .  M71 78 83
+       26   RESERVED
+       35   RESERVED
+       32   START-TIME
+1PP 5655-EC6 IBM Enterprise COBOL for z/OS  6.3.0 P201119       TOPACCTS  Date 12/22/2020  Time 15:12:00   Page     6
+0Context usage is indicated by the letter preceding a procedure-name reference.
+ These letters and their meanings are:
+     A = ALTER (procedure-name)
+     D = GO TO (procedure-name) DEPENDING ON
+     E = End of range of (PERFORM) through (procedure-name)
+     G = GO TO (procedure-name)
+     P = PERFORM (procedure-name)
+     T = (ALTER) TO PROCEED TO (procedure-name)
+     U = USE FOR DEBUGGING (procedure-name)
+
+  Defined   Cross-reference of procedures   References
+
+       60   CLOSE-STOP
+       49   OPEN-FILES
+       53   READ-NEXT-RECORD
+       88   READ-RECORD. . . . . . . . . .  P54 P57
+       70   WRITE-RECORD . . . . . . . . .  P56
+1PP 5655-EC6 IBM Enterprise COBOL for z/OS  6.3.0 P201119       TOPACCTS  Date 12/22/2020  Time 15:12:00   Page     7
+0 Defined   Cross-reference of programs     References
+
+        2   TOPACCTS
+-* Statistics for COBOL program TOPACCTS:
+ *    Source records = 97
+ *    Data Division statements = 16
+ *    Procedure Division statements = 28
+ *    Generated COBOL statements = 0
+ *    Program complexity factor = 28
+0End of compilation 1,  program TOPACCTS,  no statements flagged.
+0Return code 0

@@ -1,0 +1,4 @@
+ [07:08:10.269842] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fdirectory1
+ [07:08:10.270482] ServletDispatcher[I]: z/OSMF transaction: tx000000000000368E
+ [07:08:10.270509] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 3473455 -r 0x1c2f3028 )
+ [07:08:10.359160] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0

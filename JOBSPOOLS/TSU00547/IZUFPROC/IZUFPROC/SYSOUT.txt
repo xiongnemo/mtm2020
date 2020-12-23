@@ -1,0 +1,116 @@
+ [07:08:06.886148] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fdirectory1
+ [07:08:06.886794] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003674
+ [07:08:06.886842] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3028 )
+ [07:08:06.975192] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:08:08.204153] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fmystuff
+ [07:08:08.204192] ServletDispatcher[I]: z/OSMF transaction: tx000000000000368A
+ [07:08:08.204223] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:08:08.283720] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:08:29.712769] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fdirectory1
+ [07:08:29.712813] ServletDispatcher[I]: z/OSMF transaction: tx00000000000036D8
+ [07:08:29.712848] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:08:29.804805] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:08:30.765747] ServletDispatcher[I]: Received request: GET /fs/z/z08141/successtest
+ [07:08:30.765770] ServletDispatcher[I]: z/OSMF transaction: tx00000000000036DC
+ [07:08:30.765806] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTFS) PARM(-LI,t -q 6619148 -r 0x1c2f35e0 )
+ [07:08:30.771493] ServletDispatcher[I]: Servlet IZUGGTFS completed,  RC=0
+ [07:08:32.220919] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fdirectory1
+ [07:08:32.220953] ServletDispatcher[I]: z/OSMF transaction: tx00000000000036E0
+ [07:08:32.220986] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:08:32.300693] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:08:32.765584] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fmystuff
+ [07:08:32.765599] ServletDispatcher[I]: z/OSMF transaction: tx00000000000036E4
+ [07:08:32.765622] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:08:32.856895] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:08:51.907403] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:08:51.907454] ServletDispatcher[I]: z/OSMF transaction: tx000000000000373F
+ [07:08:51.907492] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:08:51.987580] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:08:58.832082] ServletDispatcher[I]: Received request: PUT /fs/z/z08141/uss2output/animal1
+ [07:08:58.832127] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003750
+ [07:08:58.832177] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGFSUT) PARM(-LI,t -q 6619148 -r 0x1c2f35d0 )
+ [07:08:58.836849] ServletDispatcher[I]: Servlet IZUGFSUT completed,  RC=0
+ [07:08:58.854569] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fdirectory1
+ [07:08:58.854576] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003752
+ [07:08:58.854595] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:08:58.935755] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:15.993823] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:15.993869] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003789
+ [07:09:15.993905] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:16.81197] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:17.210262] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:17.210291] ServletDispatcher[I]: z/OSMF transaction: tx000000000000378D
+ [07:09:17.210346] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:17.299440] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:22.978555] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141
+ [07:09:22.978601] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037A5
+ [07:09:22.978637] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3638 )
+ [07:09:23.119950] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:25.354242] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141
+ [07:09:25.354289] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037AC
+ [07:09:25.354325] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3638 )
+ [07:09:25.496471] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:27.233907] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:27.233950] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037B6
+ [07:09:27.233984] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:27.315910] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:29.247330] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:29.247372] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037C0
+ [07:09:29.247404] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:29.330663] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:30.349605] ServletDispatcher[I]: Received request: GET /fs/z/z08141/uss2output/animal2
+ [07:09:30.349627] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037C8
+ [07:09:30.349661] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:30.354328] ServletDispatcher[I]: Servlet IZUGGTFS completed,  RC=0
+ [07:09:31.717245] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:31.717276] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037D2
+ [07:09:31.717304] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:31.797070] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:33.804846] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:33.804890] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037D8
+ [07:09:33.804924] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:33.887544] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:35.45648] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:35.45673] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037DA
+ [07:09:35.45700] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:35.135676] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:38.198988] ServletDispatcher[I]: Received request: PUT /fs/z/z08141/uss2output/animal3
+ [07:09:38.199031] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037DE
+ [07:09:38.199076] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGFSUT) PARM(-LI,t -q 6619148 -r 0x1c2f35d0 )
+ [07:09:38.204660] ServletDispatcher[I]: Servlet IZUGFSUT completed,  RC=0
+ [07:09:38.224416] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:38.224423] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037E0
+ [07:09:38.224442] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:38.308984] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:09:39.334542] ServletDispatcher[I]: Received request: GET /fs/z/z08141/uss2output/animal3
+ [07:09:39.334564] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037E3
+ [07:09:39.334601] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:39.339603] ServletDispatcher[I]: Servlet IZUGGTFS completed,  RC=0
+ [07:09:40.679380] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:09:40.679406] ServletDispatcher[I]: z/OSMF transaction: tx00000000000037E5
+ [07:09:40.679433] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:09:40.760235] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:10:04.540268] ServletDispatcher[I]: Received request: PUT /fs/z/z08141/uss2output/message
+ [07:10:04.540319] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003836
+ [07:10:04.540368] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGFSUT) PARM(-LI,t -q 6619148 -r 0x1c2f35d0 )
+ [07:10:04.545308] ServletDispatcher[I]: Servlet IZUGFSUT completed,  RC=0
+ [07:10:04.585586] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:10:04.585593] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003838
+ [07:10:04.585612] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:10:04.674035] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:10:05.667983] ServletDispatcher[I]: Received request: GET /fs/z/z08141/uss2output/message
+ [07:10:05.668011] ServletDispatcher[I]: z/OSMF transaction: tx000000000000383C
+ [07:10:05.668045] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTFS) PARM(-LI,t -q 6619148 -r 0x1c2f35f8 )
+ [07:10:05.672628] ServletDispatcher[I]: Servlet IZUGGTFS completed,  RC=0
+ [07:10:07.56666] ServletDispatcher[I]: Received request: GET /fs?path=%2Fz%2Fz08141%2Fuss2output
+ [07:10:07.56701] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003840
+ [07:10:07.56733] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSFS) PARM(-LI,t -q 6619148 -r 0x1c2f3660 )
+ [07:10:07.141001] ServletDispatcher[I]: Servlet IZUGLSFS completed,  RC=0
+ [07:10:18.974027] ServletDispatcher[I]: Received request: PUT /fs/z/z08141/uss2script.sh
+ [07:10:18.974076] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003889
+ [07:10:18.974122] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGFSUT) PARM(-LI,t -q 6619148 -r 0x1c2f35b8 )
+ [07:10:18.978963] ServletDispatcher[I]: Servlet IZUGFSUT completed,  RC=0
+ [07:15:15.65366] ServletDispatcher[I]: Received request: PUT /fs/z/z08141/zoamerge
+ [07:15:15.65409] ServletDispatcher[I]: z/OSMF transaction: tx0000000000003C72
+ [07:15:15.65455] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGFSUT) PARM(-LI,t -q 6619148 -r 0x1c2f35b0 )
+ [07:15:15.70537] ServletDispatcher[I]: Servlet IZUGFSUT completed,  RC=0

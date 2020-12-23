@@ -1,0 +1,4 @@
+ IGZ0020S A logic error occurred.  Neither FILE STATUS nor a declarative was specified for file ACCTSIN in program
+          TOPACCTS at relative location X'346'.  The status code was 46.
+          From compile unit TOPACCTS at entry point TOPACCTS at compile unit offset +00000346 at entry offset +00000346
+           at address 1B800346.

@@ -1,0 +1,21 @@
+1                   J E S 2  J O B  L O G  --  S Y S T E M  S 0 W 1  --  N O D E  S V S C J E S 2
+0
+ 15.08.21 JOB07854 ---- TUESDAY,   22 DEC 2020 ----
+ 15.08.21 JOB07854  IRR010I  USERID Z08141   IS ASSIGNED TO THIS JOB.
+ 15.08.22 JOB07854  IEF677I WARNING MESSAGE(S) FOR JOB ACCTSJCL ISSUED
+ 15.08.23 JOB07854  ICH70001I Z08141   LAST ACCESS AT 15:04:53 ON TUESDAY, DECEMBER 22, 2020
+ 15.08.23 JOB07854  $HASP373 ACCTSJCL STARTED - INIT 1    - CLASS A        - SYS S0W1
+ 15.08.29 JOB07854  -                                      -----TIMINGS (MINS.)------                          -----PAGING COUNTS----
+ 15.08.29 JOB07854  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 15.08.29 JOB07854  -COBRUN   COBOL       12    791     44       .00       .00     .1            37  SYSTEM       0     0     0     0
+ 15.08.29 JOB07854  -COBRUN   LKED     FLUSH      0      0       .00       .00     .0                SYSTEM       0     0     0     0
+ 15.08.29 JOB07854  -RUN               FLUSH      0      0       .00       .00     .0                SYSTEM       0     0     0     0
+ 15.08.29 JOB07854  -ACCTSJCL ENDED.  NAME-                     TOTAL TCB CPU TIME=      .00 TOTAL ELAPSED TIME=    .1
+ 15.08.29 JOB07854  $HASP395 ACCTSJCL ENDED - RC=0012
+0------ JES2 JOB STATISTICS ------
+-  22 DEC 2020 JOB EXECUTION DATE
+-           18 CARDS READ
+-          471 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-           25 SYSOUT SPOOL KBYTES
+-         0.13 MINUTES EXECUTION TIME

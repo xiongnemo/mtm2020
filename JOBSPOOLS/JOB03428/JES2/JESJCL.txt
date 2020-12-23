@@ -1,0 +1,14 @@
+        1 //MERGSORT JOB 1,NOTIFY=&SYSUID                                         JOB03428
+          IEFC653I SUBSTITUTION JCL - 1,NOTIFY=Z08141
+        2 //SORT     EXEC PGM=SORT                                                00020000
+        3 //SYSOUT   DD SYSOUT=*                                                  00030000
+        4 //SORTIN   DD DSN=&SYSUID..WORK(ROCKS1),DISP=SHR                        00040002
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.WORK(ROCKS1),DISP=SHR
+        5 //         DD DSN=&SYSUID..WORK(ROCKS2),DISP=SHR                        00050002
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.WORK(ROCKS2),DISP=SHR
+        6 //         DD DSN=&SYSUID..WORK(ROCKS3),DISP=SHR                        00060002
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.WORK(ROCKS3),DISP=SHR
+        7 //SORTOUT  DD DSN=&SYSUID..OUTPUT(ROCKSOUT),DISP=(SHR),                 00070000
+          //         LIKE=MTM2020.PUBLIC.OUTPUT                                   00080000
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.OUTPUT(ROCKSOUT),DISP=(SHR),LIKE=MTM2020.PUBLIC.OUTPUT
+        8 //SYSIN    DD *                                                         00090000

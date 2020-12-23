@@ -1,0 +1,374 @@
+ [06:37:11.742473] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.OUTPUT/member
+ [06:37:11.743122] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002B39
+ [06:37:11.743163] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSMB) PARM(-LI,t -q 6357127 -r 0x1c2f3028 )
+ [06:37:11.982025] ServletDispatcher[I]: Servlet IZUGLSMB completed,  RC=0
+ [06:37:18.486090] ServletDispatcher[I]: Received request: GET /ds/Z08141
+ [06:37:18.486149] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002B4B
+ [06:37:18.486193] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35a8 )
+ [06:37:18.781523] GetDatasetServlet[W]: fopen(Z08141, r,noseek) failed: EDC5041I An error was detected at the system
+ level when opening a file. (errno2=0xC00A0022)
+ [06:37:18.811673] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:37:24.890132] ServletDispatcher[I]: Received request: GET /ds/Z08141
+ [06:37:24.890198] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002B50
+ [06:37:24.890246] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35a8 )
+ [06:37:25.128663] GetDatasetServlet[W]: fopen(Z08141, r,noseek) failed: EDC5041I An error was detected at the system
+ level when opening a file. (errno2=0xC00A0022)
+ [06:37:25.159111] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:37:28.752062] ServletDispatcher[I]: Received request: GET /ds/Z08141.INPUT/member
+ [06:37:28.752114] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002B56
+ [06:37:28.752156] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSMB) PARM(-LI,t -q 6357127 -r 0x1c2f3638 )
+ [06:37:28.980484] ServletDispatcher[I]: Servlet IZUGLSMB completed,  RC=0
+ [06:37:31.961387] ServletDispatcher[I]: Received request: GET /ds/Z08141.INPUT(MERGECMD)
+ [06:37:31.961433] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002B5C
+ [06:37:31.961472] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:37:32.184592] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:38:01.521816] ServletDispatcher[I]: Received request: GET /ds/Z08141.INPUT(NAMES1)
+ [06:38:01.521875] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002B9F
+ [06:38:01.521923] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:38:01.739244] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:38:13.924457] ServletDispatcher[I]: Received request: GET /ds/Z08141.INPUT(NAMES2)
+ [06:38:13.924513] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002BB2
+ [06:38:13.924559] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:38:14.147756] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:38:33.468925] ServletDispatcher[I]: Received request: GET /ds/Z08141.JCL(JES1JOB1)
+ [06:38:33.468979] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002BC7
+ [06:38:33.469023] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:38:33.686506] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:39:43.104729] ServletDispatcher[I]: Received request: GET /ds/Z08141.JCL(JES1JOB2)
+ [06:39:43.104777] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002C4F
+ [06:39:43.104815] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:39:43.325363] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:39:55.151084] ServletDispatcher[I]: Received request: GET /ds/Z08141.JCL(JES2JOB1)
+ [06:39:55.151135] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002C86
+ [06:39:55.151179] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:39:55.372166] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:17.946500] ServletDispatcher[I]: Received request: GET /ds/Z08141.LOAD/member
+ [06:40:17.946556] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002C9D
+ [06:40:17.946599] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSMB) PARM(-LI,t -q 6357127 -r 0x1c2f3638 )
+ [06:40:18.144243] ServletDispatcher[I]: Servlet IZUGLSMB completed,  RC=0
+ [06:40:30.934044] ServletDispatcher[I]: Received request: GET /ds/Z08141.LOAD(ADD1CBL)
+ [06:40:30.934097] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CAC
+ [06:40:30.934138] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:31.169823] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:38.626193] ServletDispatcher[I]: Received request: GET /ds/Z08141.LOAD(TOPACCTS)
+ [06:40:38.626245] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CC7
+ [06:40:38.626296] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:38.840762] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:43.16904] ServletDispatcher[I]: Received request: GET /ds/Z08141.LOAD(ADD1CBL)
+ [06:40:43.16952] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CD7
+ [06:40:43.16992] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:43.233971] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:47.428286] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(CUST16)
+ [06:40:47.428328] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CE6
+ [06:40:47.428364] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:47.656439] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:48.63991] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(JES1JOB2)
+ [06:40:48.64013] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CE8
+ [06:40:48.64043] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:48.288138] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:48.542136] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(JES2JOB1)
+ [06:40:48.542147] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CEA
+ [06:40:48.542171] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:48.769382] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:49.164135] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(PDS2OUT)
+ [06:40:49.164154] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CEE
+ [06:40:49.164184] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:49.386256] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:50.80518] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(PRTDONE)
+ [06:40:50.80552] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CF0
+ [06:40:50.80589] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:50.303957] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:50.466334] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(PRTLINE)
+ [06:40:50.466342] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CF2
+ [06:40:50.466366] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:50.679886] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:51.711110] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(TOPACCTS)
+ [06:40:51.711182] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CF6
+ [06:40:51.711219] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:51.928136] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:52.160352] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT(ZOAMERGD)
+ [06:40:52.160363] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CFA
+ [06:40:52.160386] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:52.379414] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:53.214936] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT.CCINVALD
+ [06:40:53.214962] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CFC
+ [06:40:53.214996] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:53.327161] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:53.713602] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT.CUST16
+ [06:40:53.713621] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002CFF
+ [06:40:53.713649] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:53.793472] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:54.615219] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT.CUSTOMER
+ [06:40:54.615253] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D03
+ [06:40:54.615290] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:54.710696] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:55.518330] ServletDispatcher[I]: Received request: GET /ds/Z08141.OUTPUT.VSAMPRNT
+ [06:40:55.518357] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D08
+ [06:40:55.518389] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:40:55.598276] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:40:58.402241] ServletDispatcher[I]: Received request: GET /ds/Z08141.SECRET.WORD
+ [06:40:58.402293] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D0E
+ [06:40:58.402336] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d0 )
+ [06:40:58.486089] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:38.546257] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(ACCTSJCL)
+ [06:41:38.546312] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D90
+ [06:41:38.546357] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:38.766274] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:39.103484] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(ADD1CBL)
+ [06:41:39.103499] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D95
+ [06:41:39.103525] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:39.322723] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:39.527649] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(ADD1JCL)
+ [06:41:39.527657] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D97
+ [06:41:39.527680] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:39.743704] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:40.61127] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(CCGEN)
+ [06:41:40.61141] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D99
+ [06:41:40.61167] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:40.285143] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:40.643997] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(CCVIEW)
+ [06:41:40.644011] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002D9B
+ [06:41:40.644036] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:40.871911] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:41.49813] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(GUESSNUM)
+ [06:41:41.49822] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DA0
+ [06:41:41.49845] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:41.278005] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:41.704382] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(SOMEREXX)
+ [06:41:41.704393] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DA2
+ [06:41:41.704417] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:41.924636] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:42.47711] ServletDispatcher[I]: Received request: GET /ds/Z08141.SOURCE(TOPACCTS)
+ [06:41:42.47719] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DA4
+ [06:41:42.47741] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:42.270658] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:43.579323] ServletDispatcher[I]: Received request: GET /ds/Z08141.SPFLOG1.LIST
+ [06:41:43.579357] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DA8
+ [06:41:43.579386] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d0 )
+ [06:41:43.669599] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:47.391289] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(MERGSORT)
+ [06:41:47.391349] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DAF
+ [06:41:47.391398] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:47.610126] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:48.13697] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(PDS1CCAT)
+ [06:41:48.13712] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DB1
+ [06:41:48.13742] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:48.242038] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:48.971762] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(PDSPART1)
+ [06:41:48.971792] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DB3
+ [06:41:48.971826] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:49.189269] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:49.676533] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(PDSPART2)
+ [06:41:49.676549] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DB7
+ [06:41:49.676575] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:41:49.896131] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:50.604254] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(RECIPE)
+ [06:41:50.604297] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DB9
+ [06:41:50.604339] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d0 )
+ [06:41:50.828538] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:51.235277] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(ROCKS1)
+ [06:41:51.235307] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DBD
+ [06:41:51.235334] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d0 )
+ [06:41:51.460113] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:51.805658] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(ROCKS2)
+ [06:41:51.805672] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DC1
+ [06:41:51.805705] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d0 )
+ [06:41:52.31668] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:52.735214] ServletDispatcher[I]: Received request: GET /ds/Z08141.WORK(ROCKS3)
+ [06:41:52.735237] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DC3
+ [06:41:52.735270] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d0 )
+ [06:41:52.949360] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:41:58.545451] ServletDispatcher[I]: Received request: GET /ds/Z08141.ZOWEPS
+ [06:41:58.545506] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DCE
+ [06:41:58.545549] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35c0 )
+ [06:41:58.650082] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:06.33105] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.CUST16
+ [06:42:06.33164] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DD4
+ [06:42:06.33209] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:42:06.126033] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:10.355724] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.CUST16.OLD
+ [06:42:10.355790] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DDC
+ [06:42:10.355837] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e0 )
+ [06:42:10.443096] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:11.902417] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.CUSTOMER
+ [06:42:11.902458] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DE5
+ [06:42:11.902497] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:42:12.7545] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:13.511772] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(CUSTRECS)
+ [06:42:13.511813] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DE9
+ [06:42:13.511854] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:13.737080] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:15.109102] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(LOCATION)
+ [06:42:15.109140] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DED
+ [06:42:15.109177] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:15.331390] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:16.215795] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(MERGECMD)
+ [06:42:16.215829] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DF1
+ [06:42:16.215863] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:16.429340] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:17.16962] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(NAMES1)
+ [06:42:17.16992] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DF3
+ [06:42:17.17026] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:17.241619] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:17.381650] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(NAMES2)
+ [06:42:17.381659] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DF7
+ [06:42:17.381681] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:17.602525] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:18.425] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(PDSPART1)
+ [06:42:18.445] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DF9
+ [06:42:18.479] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:18.219091] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:18.908989] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(PDSPART2)
+ [06:42:18.909005] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002DFD
+ [06:42:18.909032] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:19.136650] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:19.542789] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(PRICE)
+ [06:42:19.542799] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E05
+ [06:42:19.542821] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e8 )
+ [06:42:19.768305] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:20.522512] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(ROCKS1)
+ [06:42:20.522541] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E09
+ [06:42:20.522572] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:20.745907] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:21.574190] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(ROCKS2)
+ [06:42:21.574210] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E0F
+ [06:42:21.574239] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:21.798409] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:22.138083] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(ROCKS3)
+ [06:42:22.138094] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E13
+ [06:42:22.138119] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:22.354763] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:23.158780] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(SECRET)
+ [06:42:23.158799] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E17
+ [06:42:23.158827] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:23.377504] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:23.704380] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.INPUT(WELCOME)
+ [06:42:23.704391] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E1C
+ [06:42:23.704413] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:23.918970] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:28.30468] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.ISPF.ISPPROF/member
+ [06:42:28.30526] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E20
+ [06:42:28.30572] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSMB) PARM(-LI,t -q 6357127 -r 0x1c2f3668 )
+ [06:42:28.175094] ServletDispatcher[I]: Servlet IZUGLSMB completed,  RC=0
+ [06:42:30.514266] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.ISPF.ISPPROF(DSNEPROF)
+ [06:42:30.514311] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E28
+ [06:42:30.514350] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f3608 )
+ [06:42:30.656975] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:31.90386] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.ISPF.ISPPROF(ISPSPROF)
+ [06:42:31.90404] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E2A
+ [06:42:31.90430] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f3608 )
+ [06:42:31.228962] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:31.690072] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.ISPF.ISPPROF(ISRLLIST)
+ [06:42:31.690086] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E2E
+ [06:42:31.690111] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f3608 )
+ [06:42:31.830664] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:32.800954] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.ISPF.ISPPROF(ISRPLIST)
+ [06:42:32.800982] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E33
+ [06:42:32.801016] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f3608 )
+ [06:42:32.944158] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:33.476325] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.ISPF.ISPPROF(ISRPROF)
+ [06:42:33.476344] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E35
+ [06:42:33.476372] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f3608 )
+ [06:42:33.621263] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:35.592493] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(CHK)
+ [06:42:35.592534] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E3E
+ [06:42:35.592570] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:42:35.816966] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:36.150749] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(CHK2)
+ [06:42:36.150760] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E44
+ [06:42:36.150783] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e0 )
+ [06:42:36.373735] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:36.786203] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(CHK3)
+ [06:42:36.786223] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E4B
+ [06:42:36.786255] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e0 )
+ [06:42:37.4995] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:37.341487] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(CHKNODE)
+ [06:42:37.341500] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E53
+ [06:42:37.341525] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e8 )
+ [06:42:37.562065] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:38.399644] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(JES1JOB1)
+ [06:42:38.399668] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E5B
+ [06:42:38.399698] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:38.614256] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:39.14540] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(JES1JOB2)
+ [06:42:39.14576] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E5E
+ [06:42:39.14616] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:39.230860] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:39.679641] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(JES2JOB1)
+ [06:42:39.679655] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E62
+ [06:42:39.679681] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:39.907793] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:40.298629] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(MERGSORT)
+ [06:42:40.298642] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E66
+ [06:42:40.298667] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:40.524498] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:40.831824] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(PDS1CCAT)
+ [06:42:40.831841] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E68
+ [06:42:40.831870] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:42:41.50837] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:41.808632] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(ROCKS)
+ [06:42:41.808652] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E70
+ [06:42:41.808684] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e0 )
+ [06:42:42.28825] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:42.298519] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(TEST)
+ [06:42:42.298529] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E74
+ [06:42:42.298560] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e0 )
+ [06:42:42.524404] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:42.831238] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(TSOCMD)
+ [06:42:42.831257] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E7A
+ [06:42:42.831288] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e8 )
+ [06:42:43.51229] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:43.387998] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(UNIXSH)
+ [06:42:43.388008] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E7C
+ [06:42:43.388032] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e8 )
+ [06:42:43.607493] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:43.996760] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.JCL(WELCOME)
+ [06:42:43.996770] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E7E
+ [06:42:43.996793] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35e8 )
+ [06:42:44.224058] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:46.349191] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.PDS/member
+ [06:42:46.349241] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E84
+ [06:42:46.349282] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGLSMB) PARM(-LI,t -q 6357127 -r 0x1c2f3650 )
+ [06:42:46.539368] ServletDispatcher[I]: Servlet IZUGLSMB completed,  RC=0
+ [06:42:49.34777] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.RECORDS
+ [06:42:49.34818] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E8C
+ [06:42:49.34856] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:42:49.126196] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:42:51.972870] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.RECORDS
+ [06:42:51.972922] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002E90
+ [06:42:51.972972] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35d8 )
+ [06:42:52.59303] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:05.478813] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.SOURCE(ADD1CBL)
+ [06:43:05.478865] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EAF
+ [06:43:05.478906] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:43:05.701859] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:06.19983] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.SOURCE(ADD1JCL)
+ [06:43:06.19994] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EB1
+ [06:43:06.20018] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:43:06.244467] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:06.625789] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.SOURCE(CCVIEW)
+ [06:43:06.625808] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EB3
+ [06:43:06.625839] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:43:06.845424] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:07.256291] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.SOURCE(COMBINE)
+ [06:43:07.256309] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EB5
+ [06:43:07.256336] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:43:07.477123] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:07.818507] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.SOURCE(GUESSNUM)
+ [06:43:07.818521] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EB7
+ [06:43:07.818545] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:43:08.34289] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:08.590533] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.SOURCE(SOMEREXX)
+ [06:43:08.590556] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EBA
+ [06:43:08.590588] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:43:08.817102] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:09.451341] ServletDispatcher[I]: Received request: GET /ds/MTM2020.PUBLIC.SOURCE(SUCCESS)
+ [06:43:09.451362] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EBC
+ [06:43:09.451398] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35f0 )
+ [06:43:09.672992] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0
+ [06:43:11.464096] ServletDispatcher[I]: Received request: GET /ds/Z08141
+ [06:43:11.464136] ServletDispatcher[I]: z/OSMF transaction: tx0000000000002EBE
+ [06:43:11.464174] ServletDispatcher[I]: Invoking Servlet: SELECT  PGM(IZUGGTDS) PARM(-LI,t -q 6357127 -r 0x1c2f35a8 )
+ [06:43:11.703290] GetDatasetServlet[W]: fopen(Z08141, r,noseek) failed: EDC5041I An error was detected at the system
+ level when opening a file. (errno2=0xC00A0022)
+ [06:43:11.733691] ServletDispatcher[I]: Servlet IZUGGTDS completed,  RC=0

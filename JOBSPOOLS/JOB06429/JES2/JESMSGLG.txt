@@ -1,0 +1,21 @@
+1                   J E S 2  J O B  L O G  --  S Y S T E M  S 0 W 1  --  N O D E  S V S C J E S 2
+0
+ 11.23.07 JOB06429 ---- TUESDAY,   22 DEC 2020 ----
+ 11.23.07 JOB06429  IRR010I  USERID Z08141   IS ASSIGNED TO THIS JOB.
+ 11.23.07 JOB06429  IEF677I WARNING MESSAGE(S) FOR JOB ADD1JCL  ISSUED
+ 11.23.09 JOB06429  ICH70001I Z08141   LAST ACCESS AT 11:21:23 ON TUESDAY, DECEMBER 22, 2020
+ 11.23.09 JOB06429  $HASP373 ADD1JCL  STARTED - INIT 1    - CLASS A        - SYS S0W1
+ 11.23.15 JOB06429  -                                      -----TIMINGS (MINS.)------                          -----PAGING COUNTS----
+ 11.23.15 JOB06429  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 11.23.15 JOB06429  -COBRUN   COBOL       00  12313    137       .00       .00     .1            52  SYSTEM       0     0     0     0
+ 11.23.15 JOB06429  -COBRUN   LKED        00    278     32       .00       .00     .0            57  SYSTEM       0     0     0     0
+ 11.23.16 JOB06429  -RUN                  00    282     30       .00       .00     .0            90  SYSTEM       0     0     0     0
+ 11.23.16 JOB06429  -ADD1JCL  ENDED.  NAME-                     TOTAL TCB CPU TIME=      .00 TOTAL ELAPSED TIME=    .1
+ 11.23.16 JOB06429  $HASP395 ADD1JCL  ENDED - RC=0000
+0------ JES2 JOB STATISTICS ------
+-  22 DEC 2020 JOB EXECUTION DATE
+-           18 CARDS READ
+-          555 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-           26 SYSOUT SPOOL KBYTES
+-         0.14 MINUTES EXECUTION TIME

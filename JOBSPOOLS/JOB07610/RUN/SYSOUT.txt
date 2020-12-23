@@ -1,0 +1,6 @@
+ IGZ0201W A file attribute mismatch was detected. File ACCTS-REC-IN in program TOPACCTS had a record length of 79 and
+          the file specified in the ASSIGN clause had a record length of 80.
+ IGZ0035S There was an unsuccessful OPEN or CLOSE of file ACCTSIN in program TOPACCTS at relative location X'190'.
+          Neither FILE STATUS nor an ERROR declarative were specified. The status code was 39.
+          From compile unit TOPACCTS at entry point TOPACCTS at compile unit offset +00000190 at entry offset +00000190
+           at address 1B800190.

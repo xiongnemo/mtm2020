@@ -1,0 +1,4 @@
+        1 //PRINT2   JOB  PRINTJCL                                                JOB04235
+        2 //STEP1    EXEC PGM=IDCAMS
+        3 //SYSPRINT DD   SYSOUT=A
+        4 //SYSIN    DD   *

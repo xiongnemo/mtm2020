@@ -1,0 +1,20 @@
+        1 //ACCTSJCL  JOB 1,NOTIFY=&SYSUID                                        JOB07061
+          //***************************************************/
+          IEFC653I SUBSTITUTION JCL - 1,NOTIFY=Z08141
+        2 //COBOL.SYSIN  DD DSN=&SYSUID..SOURCE(TOPACCTS),DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.SOURCE(TOPACCTS),DISP=SHR
+        3 //LKED.SYSLMOD DD DSN=&SYSUID..LOAD(TOPACCTS),DISP=SHR
+          //***************************************************/
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.LOAD(TOPACCTS),DISP=SHR
+        4 // IF RC = 0 THEN
+          //***************************************************/
+        5 //RUN     EXEC PGM=TOPACCTS
+        6 //ACCTSINPUT DD DSN=MTM2020.PUBLIC.INPUT(CUSTRECS)
+        7 //TOPACCTS   DD DSN=&SYSUID..OUTPUT(TOPACCTS),DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.OUTPUT(TOPACCTS),DISP=SHR
+        8 //SYSOUT    DD SYSOUT=*,OUTLIM=15000
+        9 //CEEDUMP   DD DUMMY
+       10 //SYSUDUMP  DD DUMMY
+          //***************************************************/
+       11 // ELSE
+       12 // ENDIF

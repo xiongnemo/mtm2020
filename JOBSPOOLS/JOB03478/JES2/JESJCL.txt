@@ -1,0 +1,12 @@
+        1 //JES1JOB2 JOB 1                                                        JOB03478
+          //*
+          //*  JCL line 5 needs a SECRET= value to execute
+          //*
+        2 //SETVAR   SET SECRET=GIRAFFE
+        3 //SECRET   EXEC PGM=IEBGENER
+        4 //SYSPRINT DD DUMMY
+        5 //SYSUT1   DD DSN=MTM2020.PUBLIC.WORK(&SECRET),DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=MTM2020.PUBLIC.WORK(GIRAFFE),DISP=SHR
+        6 //SYSUT2   DD DSN=&SYSUID..OUTPUT(JES1JOB2),DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=Z08141.OUTPUT(JES1JOB2),DISP=SHR
+        7 //SYSIN    DD DUMMY
