@@ -1,0 +1,5 @@
+/* rexx */                                                              00010000
+say                                                                     00090000
+say 'Congratulations on fixing your first JCL'                          00100000
+say                                                                     00100100
+exit 0                                                                  00101000

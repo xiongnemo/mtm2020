@@ -1,0 +1,22 @@
+/* rexx */                                                              00010004
+/****************************************************/                  00070002
+"execio * diskr item     (stem item.  finis"                            00080004
+  if rc > 0 then call failed                                            00081007
+"execio * diskr price    (stem price. finis"                            00090004
+  if rc > 0 then call failed                                            00090107
+"execio * diskr location (stem loc.   finis"                            00100004
+  if rc > 0 then call failed                                            00100107
+say                                                                     00100214
+say 'Vintage Cars for Sale'                                             00100314
+say                                                                     00100414
+say 'Item                    Price    Location'                         00100514
+say '----------------------- -------- ---------------------'            00100614
+do i=1 to item.0                                                        00110010
+ f1 = substr(item.i,1,23)                                               00120011
+ f2 = substr(price.i,1,8)                                               00130011
+ f3 = substr(loc.i,1,21)                                                00140011
+ say f1 f2 f3                                                           00150004
+end                                                                     00160004
+exit 0                                                                  00200004
+failed:                                                                 00210007
+exit 8                                                                  00220007

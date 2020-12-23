@@ -1,0 +1,5 @@
+1      Time                *** ISPF transaction log ***                        Userid: Z08141    Date: 20/12/22   Page: 1
+ 
+       04:27   Start of ISPF Log - - -  - Session # 1 -------------------------------------------------------
+       04:27   ***** Dialog Error ***** - Application(GWB); Function Unknown (IZUGDSPT); Service()
+       04:27      Table in use          - TBOPEN issued for table ISPPROF that is in use, ENQUEUE failed.

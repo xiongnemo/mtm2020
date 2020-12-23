@@ -1,0 +1,14 @@
+If you can read this, you've opened a mainframe data set
+for Level 1 of Master the Mainframe. Congratulations!
+
+A word or two about Data Sets:
+    Sequential data sets assume data is stored in records, one after the other
+    Partitioned data sets usually contain entries called "members"
+    A partitioned data set is sometimes called a Library
+    There's a third type of data set. Read about it here:
+    https://ibm.biz/BdqpDF
+
+Even though they show up as Files and Folders in VS Code, you should be
+careful not to make assumptions about what type of data set you're working
+with, as data sets can take many different forms, depending on what's needed.
+
