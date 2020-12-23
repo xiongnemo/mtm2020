@@ -21,6 +21,8 @@ Sources and outputs for my `Master the Mainframe 2020` challenges.
 
 `USS` contains `Unix System Service` files from the z15 Mainframe.
 
+`JOBSPOOL` contains job's spools.
+
 ## File Suffix
 
 Suffix in `DATASETS` are there for readability and auto syntax highlighting.
