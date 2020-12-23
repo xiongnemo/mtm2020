@@ -1,0 +1,6 @@
+if
+ rm an_unimportant_file;
+then echo "It worked!"
+else
+echo "It didn't work"
+fi
